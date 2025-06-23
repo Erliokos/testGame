@@ -93,6 +93,9 @@
     "destroySound": {
       "__uuid__": "7835edc7-1455-4088-adf3-b2580fef08e4"
     },
+    "bombSound": {
+      "__uuid__": "3bc6023e-bb0c-4076-94af-03e9266a59e3"
+    },
     "_id": ""
   },
   {
@@ -111,6 +114,9 @@
     },
     "block_red": {
       "__uuid__": "8adfe279-0564-467d-9b5d-d23cb3b9e458"
+    },
+    "bomb": {
+      "__uuid__": "5e271e44-5fa4-4ac2-9bb0-736577e50533"
     }
   },
   {

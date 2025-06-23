@@ -54,9 +54,9 @@ var GameController = /** @class */ (function (_super) {
         this.timer.initTimer(config_1.default.GAME_TIME, this.timeUp.bind(this), 1);
         this.score.initScore(config_1.default.START_SCORE);
     };
-    GameController.prototype.handleBubbleClick = function (position) {
-        var groupToRemove = this.board.getGroupToRemove(position);
-        var points = this.board.removeGroup(groupToRemove);
+    GameController.prototype.handleBubbleClick = function (position, type) {
+        var groupToRemove = this.board.getGroupToRemove(position, type);
+        var points = this.board.removeGroup(groupToRemove, position, type);
         this.calculateTimeAndScore(points);
     };
     GameController.prototype.timeUp = function () {

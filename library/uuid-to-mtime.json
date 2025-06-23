@@ -664,11 +664,6 @@
     "meta": 1750611085253,
     "relativePath": "scripts/types/types.ts"
   },
-  "d78c6579-6157-42b6-9055-a9fb0b1a091c": {
-    "asset": 1750611358819,
-    "meta": 1750611733573,
-    "relativePath": "scripts/constants/bubbleSpriteFrame.ts"
-  },
   "6e366439-e66a-460a-aff7-94fb9406e644": {
     "asset": 1750615250924,
     "meta": 1750638492210,
@@ -699,20 +694,10 @@
     "meta": 1750625118675,
     "relativePath": "sounds/click.mp3"
   },
-  "991bb487-1b7f-4170-aea1-006304f9f686": {
-    "asset": 1750625215594,
-    "meta": 1750625223004,
-    "relativePath": "prefabs/bubble.prefab"
-  },
   "f38cf1bf-40bf-4056-98bb-4c805305dc39": {
     "asset": 1750626003146,
     "meta": 1750626088681,
     "relativePath": "scripts/utils/getNewPositionByStep.ts"
-  },
-  "7e8c4f54-4ec1-4a8c-be64-c5e93b6e76e8": {
-    "asset": 1750627249016,
-    "meta": 1750628829215,
-    "relativePath": "scripts/Bubble.ts"
   },
   "29e31caf-fe07-4f5b-9520-565e17b128aa": {
     "asset": 1750631847261,
@@ -724,26 +709,6 @@
     "meta": 1750632889430,
     "relativePath": "scripts/Timer.ts"
   },
-  "3e1cbabc-5f7a-4e6d-b067-cb9a7fd78430": {
-    "asset": 1750636641063,
-    "meta": 1750637337654,
-    "relativePath": "scripts/Board.ts"
-  },
-  "3811637a-520f-4f3d-a76a-92209bb1e173": {
-    "asset": 1750637277835,
-    "meta": 1750637337657,
-    "relativePath": "scripts/constants/config.ts"
-  },
-  "f5bbef6c-f599-4298-a2e7-983f3125e779": {
-    "asset": 1750637242057,
-    "meta": 1750637337673,
-    "relativePath": "scripts/Score.ts"
-  },
-  "e0a217d9-10be-499c-bb6b-08774167bd99": {
-    "asset": 1750637898956,
-    "meta": 1750638130842,
-    "relativePath": "scripts/GameController.ts"
-  },
   "4ea5157f-aa3e-4973-88ac-a673d3809211": {
     "asset": 1750637864822,
     "meta": 1750638130851,
@@ -753,5 +718,55 @@
     "asset": 1750624376638,
     "meta": 1750638492208,
     "relativePath": "animation"
+  },
+  "d78c6579-6157-42b6-9055-a9fb0b1a091c": {
+    "asset": 1750671737618,
+    "meta": 1750671760249,
+    "relativePath": "scripts/constants/bubbleSpriteFrame.ts"
+  },
+  "f5bbef6c-f599-4298-a2e7-983f3125e779": {
+    "asset": 1750675200597,
+    "meta": 1750675236418,
+    "relativePath": "scripts/Score.ts"
+  },
+  "9fef9e4c-7108-4ba4-8af0-779797e9de51": {
+    "asset": 1750675600037,
+    "meta": 1750675992496,
+    "relativePath": "scripts/utils/searchNeighbor.ts"
+  },
+  "e0a217d9-10be-499c-bb6b-08774167bd99": {
+    "asset": 1750676486407,
+    "meta": 1750678661769,
+    "relativePath": "scripts/GameController.ts"
+  },
+  "3e1cbabc-5f7a-4e6d-b067-cb9a7fd78430": {
+    "asset": 1750681516353,
+    "meta": 1750681634571,
+    "relativePath": "scripts/Board.ts"
+  },
+  "c62aa2b1-5425-4db8-8766-8aa32600a0f6": {
+    "asset": 1750679361811,
+    "meta": 1750681634590,
+    "relativePath": "scripts/utils/searchLineVertical.ts"
+  },
+  "3bc6023e-bb0c-4076-94af-03e9266a59e3": {
+    "asset": 1750681853286,
+    "meta": 1750681890051,
+    "relativePath": "sounds/bombSound.mp3"
+  },
+  "6152c258-07c8-4461-8563-5cd4a29b4ecb": {
+    "asset": 1750681910583,
+    "meta": 1750681919064,
+    "relativePath": "prefabs/bubble.prefab"
+  },
+  "7e8c4f54-4ec1-4a8c-be64-c5e93b6e76e8": {
+    "asset": 1750681983624,
+    "meta": 1750682116303,
+    "relativePath": "scripts/Bubble.ts"
+  },
+  "3811637a-520f-4f3d-a76a-92209bb1e173": {
+    "asset": 1750682113355,
+    "meta": 1750682116306,
+    "relativePath": "scripts/constants/config.ts"
   }
 }

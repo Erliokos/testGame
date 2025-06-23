@@ -1,5 +1,8 @@
+import { BubbleType } from './constants/bubbleSpriteFrame';
 import config from './constants/config'
 import { getNewPositionByStep } from './utils/getNewPositionByStep';
+import { searchBombField, searchLineVertical } from './utils/searchLineVertical';
+import { searchNeighbor } from './utils/searchNeighbor';
 const { ccclass, property } = cc._decorator;
 
 @ccclass
@@ -13,10 +16,9 @@ export default class Board extends cc.Component {
 
     stepY: number
 
-    onBubbleClick: (position: cc.Vec2) => void = () => { };
+    onBubbleClick: (position: cc.Vec2, type: BubbleType) => void = () => { };
 
     initGame(bubblePrefab: cc.Prefab, onBubbleClick: VoidFunction) {
-        console.log('INIT', bubblePrefab);
         this.initStep()
         this.bubblePrefab = bubblePrefab
         this.onBubbleClick = onBubbleClick
@@ -46,8 +48,6 @@ export default class Board extends cc.Component {
                 this.board[x][y] = node
             }
         }
-        console.log('board', this.board);
-
     }
 
     createBubble(position: cc.Vec2): cc.Node {
@@ -63,53 +63,34 @@ export default class Board extends cc.Component {
         return newBubble
     }
 
-    getGroupToRemove(startPosition: cc.Vec2) {
+    getGroupToRemove(startPosition: cc.Vec2, type: BubbleType) {
+
         const startBubbleNode = this.board[startPosition.x][startPosition.y]
         if (!startBubbleNode) return
-        const startBubble = startBubbleNode.getComponent('Bubble')
 
-        const visited = new Set<string>();
-
-        const groupToRemove: cc.Node[] = []
-
-        const searchNeighbor = (pos: cc.Vec2) => {
-            console.log('pos');
-            if (pos.x < 0 || pos.y < 0 || pos.x >= config.BOARD_WIDTH || pos.y >= config.BOARD_HEIGHT) return;
-            const key = `${pos.x},${pos.y}`;
-            if (visited.has(key)) return;
-
-            const node = this.board[pos.x][pos.y];
-            if (!node) return;
-
-            const bubble = node.getComponent('Bubble');
-            if (bubble.type === startBubble.type) {
-                visited.add(key);
-                groupToRemove.push(node);
-                searchNeighbor(cc.v2(pos.x + 1, pos.y));
-                searchNeighbor(cc.v2(pos.x - 1, pos.y));
-                searchNeighbor(cc.v2(pos.x, pos.y + 1));
-                searchNeighbor(cc.v2(pos.x, pos.y - 1));
-            }
-
-
-        };
-        searchNeighbor(startPosition)
-        return groupToRemove
+        if(type === 'bomb') {
+            return searchBombField(startPosition, [], this.board, 2)
+        }
+        else {
+            return  searchNeighbor(startPosition, new Set<string>(), [], type, this.board)
+        }
     }
 
+    
 
-    removeGroup(group: cc.Node[]): number {
+
+    removeGroup(group: cc.Node[], startPosition: cc.Vec2, type: BubbleType): number {
         if (group.length < 2) return 0
         for (let i = 0; i < group.length; i++) {
             const bubble = group[i].getComponent('Bubble')
             this.board[bubble.coord.x][bubble.coord.y] = null
-            bubble.bubbleDestroy(i)
+            bubble.bubbleDestroy(type === 'bomb' ? 0 : i)
         }
-        this.fillEmptySpace(group.length)
+        this.fillEmptySpace(group.length, startPosition, type)
         return group.length
     }
 
-    fillEmptySpace(emtyCount: number) {
+    fillEmptySpace(emtyCount: number, startPosition: cc.Vec2, type: BubbleType ) {        
         for (let x = 0; x < config.BOARD_WIDTH; x++) {
             let stepToDown = 0
             for (let y = 0; y < config.BOARD_HEIGHT; y++) {
@@ -120,7 +101,11 @@ export default class Board extends cc.Component {
                 else if (node && stepToDown > 0) {
                     const bubble = node.getComponent('Bubble')
                     const newPosition = getNewPositionByStep(cc.v2(x, y - stepToDown), this.stepX, this.stepY)
-                    bubble.moveToPosition(newPosition, emtyCount)
+                    // Создание бонуса
+                    if (startPosition.equals(cc.v2(x, y - stepToDown)) && emtyCount > config.COUNT_TO_GET_BOMB && type !== 'bomb' ){
+                        bubble.initType('bomb')
+                    }
+                    bubble.moveToPosition(newPosition, type === 'bomb' ? 2 : emtyCount)
                     bubble.initCoord(cc.v2(x, y - stepToDown))
                     this.board[x][y - stepToDown] = node
                     this.board[x][y] = null
@@ -133,7 +118,11 @@ export default class Board extends cc.Component {
                 bubble.initCoord(cc.v2(x, config.BOARD_HEIGHT - stepToDown + i))
                 this.board[x][config.BOARD_HEIGHT - stepToDown + i] = newBubble
                 const newPosition = getNewPositionByStep(cc.v2(x, config.BOARD_HEIGHT - stepToDown + i), this.stepX, this.stepY)
-                bubble.moveToPosition(newPosition, emtyCount + i*2)
+                // Создание бонуса
+                if (startPosition.equals(cc.v2(x, config.BOARD_HEIGHT - stepToDown + i)) && emtyCount > config.COUNT_TO_GET_BOMB && type !== 'bomb'){
+                    bubble.initType('bomb')
+                }
+                bubble.moveToPosition(newPosition, type === 'bomb' ? 2 : emtyCount + i * 2 )
             }
         }
 
@@ -141,8 +130,8 @@ export default class Board extends cc.Component {
 
 
 
-    handleBubbleClick(position: cc.Vec2) {
-        this.onBubbleClick(position);
+    handleBubbleClick(position: cc.Vec2, type: BubbleType) {
+        this.onBubbleClick(position, type);
     }
 
     initStep() {

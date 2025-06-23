@@ -19,6 +19,7 @@ var BubbleSpriteSet = /** @class */ (function () {
         this.block_purpure = null;
         this.block_yellow = null;
         this.block_red = null;
+        this.bomb = null;
     }
     BubbleSpriteSet.prototype.get = function (type) {
         return this[type];
@@ -38,6 +39,9 @@ var BubbleSpriteSet = /** @class */ (function () {
     __decorate([
         property({ type: cc.SpriteFrame })
     ], BubbleSpriteSet.prototype, "block_red", void 0);
+    __decorate([
+        property({ type: cc.SpriteFrame })
+    ], BubbleSpriteSet.prototype, "bomb", void 0);
     BubbleSpriteSet = __decorate([
         ccclass('BubbleSpriteSet')
     ], BubbleSpriteSet);

@@ -230,3 +230,2419 @@ myProp = 0;
 2025-06-23T00:29:04.083Z - normal: Generating main.js from /Applications/Cocos/Creator/2.4.15/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
 2025-06-23T00:29:04.085Z - normal: Generating html from /Applications/Cocos/Creator/2.4.15/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template/index.html
 2025-06-23T00:29:04.126Z - normal: Built to "/Users/albertmurzakov/Desktop/cocosgame/testGame/build/web-mobile" successfully
+2025-06-23T09:42:40.755Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T09:42:40.755Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T09:42:40.756Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T09:42:40.756Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T09:42:40.757Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T09:42:40.757Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T09:49:52.371Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T09:49:52.371Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T09:49:52.372Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T09:49:52.372Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T09:49:52.375Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T09:49:52.375Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T09:49:52.632Z - warn: The Asset used is missing. Detailed information:
+Missing uuid: "991bb487-1b7f-4170-aea1-006304f9f686"
+
+2025-06-23T09:49:52.634Z - warn: The Asset used is missing. Detailed information:
+Missing uuid: "991bb487-1b7f-4170-aea1-006304f9f686"
+
+2025-06-23T09:50:52.737Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T09:50:52.738Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T09:50:52.738Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T09:50:52.738Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T09:50:52.739Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T09:50:52.739Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T09:51:28.023Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T09:51:28.023Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T09:51:28.023Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T09:51:28.024Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T09:51:28.024Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T09:51:28.025Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T09:53:10.833Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T09:53:10.833Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T09:53:10.833Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T09:53:10.834Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T09:53:10.834Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T09:53:10.835Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T09:54:38.899Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T09:54:38.899Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T09:54:38.899Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T09:54:38.899Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T09:54:38.900Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T09:54:38.900Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T09:57:16.206Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T09:57:16.207Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T09:57:16.207Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T09:57:16.207Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T09:57:16.207Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T09:57:16.208Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:00:21.228Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:00:21.228Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:00:21.228Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:00:21.228Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:00:21.229Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:00:21.229Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:02:33.676Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:02:33.677Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:02:33.677Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:02:33.677Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:02:33.678Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:02:33.678Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:12:12.735Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:12:12.735Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:12:12.736Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:12:12.736Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:12:12.737Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:12:12.737Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:13:02.311Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:13:02.312Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:13:02.312Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:13:02.312Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:13:02.312Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:13:02.312Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:14:20.512Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:14:20.513Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:14:20.513Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:14:20.513Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:14:20.513Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:14:20.513Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:14:56.385Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:14:56.386Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:14:56.387Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:14:56.387Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:14:56.387Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:14:56.387Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:15:09.683Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:15:09.685Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:15:09.685Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:15:09.685Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:15:09.685Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:15:09.685Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:16:38.902Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:16:38.902Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:16:38.902Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:16:38.902Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:16:38.902Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:16:38.903Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:16:48.313Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:16:48.313Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:16:48.314Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:16:48.314Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:16:48.314Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:16:48.314Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:20:38.672Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:20:38.672Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:20:38.672Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:20:38.672Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:20:38.673Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:20:38.673Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:20:54.038Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:20:54.038Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:20:54.038Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:20:54.038Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:20:54.039Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:20:54.039Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:35:01.770Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:35:01.771Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:35:01.771Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:35:01.771Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:35:01.773Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:35:01.773Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:36:06.468Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:36:06.469Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:36:06.469Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:36:06.469Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:36:06.470Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:36:06.470Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:37:53.003Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:37:53.004Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:37:53.004Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:37:53.004Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:37:53.005Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:37:53.005Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:39:05.292Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:39:05.292Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:39:05.292Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:39:05.292Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:39:05.293Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:39:05.293Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:40:04.521Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:40:04.521Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:40:04.521Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:40:04.522Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:40:04.522Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:40:04.523Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:40:36.881Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:40:36.882Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:40:36.882Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:40:36.882Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:40:36.882Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:40:36.882Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:40:53.110Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:40:53.110Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:40:53.110Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:40:53.111Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:40:53.111Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:40:53.111Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:47:06.359Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:47:06.359Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:47:06.360Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:47:06.360Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:47:06.360Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:47:06.361Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:52:06.774Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:52:06.774Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:52:06.774Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:52:06.774Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:52:06.775Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:52:06.775Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:53:00.811Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:53:00.812Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:53:00.812Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:53:00.812Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:53:00.813Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:53:00.813Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:53:12.994Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:53:12.995Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:53:12.995Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:53:12.995Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:53:12.996Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:53:12.996Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:53:47.638Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:53:47.638Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:53:47.639Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:53:47.639Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:53:47.639Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:53:47.639Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:59:37.644Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:59:37.646Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:59:37.646Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:59:37.646Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:59:37.646Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T10:59:37.646Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T11:02:20.691Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T11:02:20.691Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T11:02:20.691Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T11:02:20.691Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T11:02:20.692Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T11:02:20.692Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T11:37:42.260Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T11:37:42.261Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T11:37:42.261Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T11:37:42.261Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T11:37:42.262Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T11:37:42.263Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T11:46:13.774Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T11:46:13.775Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T11:46:13.775Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T11:46:13.776Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T11:46:13.777Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T11:46:13.777Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T11:46:42.395Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T11:46:42.396Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T11:46:42.396Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T11:46:42.396Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T11:46:42.397Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T11:46:42.397Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T11:47:23.792Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T11:47:23.792Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T11:47:23.792Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T11:47:23.792Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T11:47:23.793Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T11:47:23.793Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T11:49:41.490Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T11:49:41.491Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T11:49:41.491Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T11:49:41.491Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T11:49:41.493Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T11:49:41.494Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:19:26.897Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:19:26.897Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:19:26.898Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:19:26.898Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:19:26.900Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:19:26.900Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:22:15.368Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:22:15.368Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:22:15.368Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:22:15.369Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:22:15.369Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:22:15.369Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:23:02.983Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:23:02.984Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:23:02.984Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:23:02.984Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:23:02.985Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:23:02.985Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:23:49.202Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:23:49.202Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:23:49.203Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:23:49.203Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:23:49.203Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:23:49.203Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:24:36.312Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:24:36.312Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:24:36.313Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:24:36.313Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:24:36.314Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:24:36.314Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:24:57.367Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:24:57.368Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:24:57.368Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:24:57.368Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:24:57.369Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:24:57.369Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:25:21.641Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:25:21.641Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:25:21.641Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:25:21.641Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:25:21.641Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:25:21.641Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:26:09.049Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:26:09.050Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:26:09.050Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:26:09.050Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:26:09.051Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:26:09.051Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:27:15.066Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:27:15.066Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:27:15.066Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:27:15.067Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:27:15.067Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:27:15.067Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:33:09.656Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:33:09.657Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:33:09.657Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:33:09.657Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:33:09.659Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:33:09.659Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:33:10.195Z - warn: The Asset used by node "bubble2" is missing. Detailed information:
+Node path: "bubble2"
+Missing uuid: "6f36ac8a-890b-4c17-a0d3-cfe02213bef6"
+
+2025-06-23T12:33:10.200Z - warn: The Asset used is missing. Detailed information:
+Missing uuid: "6f36ac8a-890b-4c17-a0d3-cfe02213bef6"
+
+2025-06-23T12:33:10.200Z - warn: The Asset used is missing. Detailed information:
+Missing uuid: "6f36ac8a-890b-4c17-a0d3-cfe02213bef6"
+
+2025-06-23T12:33:59.726Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:33:59.727Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:33:59.727Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:33:59.727Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:33:59.728Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:33:59.728Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:35:06.070Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:35:06.070Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:35:06.071Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:35:06.071Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:35:06.071Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:35:06.072Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:35:16.782Z - warn: Please specifiy a default value for "GameController.timeScoreBoardNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:35:16.782Z - warn: Please specifiy a default value for "GameController.gameOverNode" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:35:16.782Z - warn: Please specifiy a default value for "GameOverView.restartButton" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:35:16.782Z - warn: Please specifiy a default value for "GameOverView.gameOverView" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:35:16.783Z - warn: Please specifiy a default value for "TimerScoreView.timerLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;
+2025-06-23T12:35:16.783Z - warn: Please specifiy a default value for "TimerScoreView.scoreLabel" at its declaration:
+ 
+// Before:
+@property(...)
+myProp;
+// After:
+@property(...)
+myProp = 0;

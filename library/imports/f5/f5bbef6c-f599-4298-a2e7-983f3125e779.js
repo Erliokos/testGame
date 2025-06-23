@@ -43,7 +43,9 @@ var Score = /** @class */ (function (_super) {
     };
     Score.prototype.initScore = function (startScore) {
         this.score = startScore;
-        this.timeScoreView.renderScore(this.score);
+        if (this.timeScoreView) {
+            this.timeScoreView.renderScore(this.score);
+        }
     };
     Score.prototype.updateScore = function (addScore) {
         this.score = this.score + addScore;

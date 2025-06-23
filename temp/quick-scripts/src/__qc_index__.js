@@ -11,3 +11,5 @@ require('./assets/scripts/constants/config');
 require('./assets/scripts/types/types');
 require('./assets/scripts/utils/getNewPositionByStep');
 require('./assets/scripts/utils/getRandomType');
+require('./assets/scripts/utils/searchLineVertical');
+require('./assets/scripts/utils/searchNeighbor');

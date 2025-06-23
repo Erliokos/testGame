@@ -38,6 +38,7 @@ var Bubble = /** @class */ (function (_super) {
         var _this = _super !== null && _super.apply(this, arguments) || this;
         _this.bubbleSprites = new bubbleSpriteFrame_1.BubbleSpriteSet();
         _this.destroySound = null;
+        _this.bombSound = null;
         _this.type = 'block_blue';
         return _this;
     }
@@ -48,10 +49,8 @@ var Bubble = /** @class */ (function (_super) {
     Bubble.prototype.initType = function (type) {
         this.sprite = this.getComponent(cc.Sprite);
         if (!type) {
-            var sprite_name = getRandomType_1.getRandomType();
-            this.type = sprite_name;
-            var sprite = this.bubbleSprites[sprite_name];
-            this.sprite.spriteFrame = sprite;
+            this.type = getRandomType_1.getRandomType();
+            this.sprite.spriteFrame = this.bubbleSprites[this.type];
             return;
         }
         this.type = type;
@@ -65,11 +64,15 @@ var Bubble = /** @class */ (function (_super) {
         this.coord = coord;
     };
     Bubble.prototype.onClick = function () {
-        this.node.emit('bubble-click', this.coord);
+        this.node.emit('bubble-click', this.coord, this.type);
     };
     Bubble.prototype.onKeyDown = function () {
-        cc.audioEngine.playEffect(this.destroySound, false);
-        console.log('KEY_DOWN');
+        if (this.type === 'bomb') {
+            cc.audioEngine.playEffect(this.bombSound, false);
+        }
+        else {
+            cc.audioEngine.playEffect(this.destroySound, false);
+        }
         var anim = this.getComponent(cc.Animation);
         anim.play('bubble_touch');
     };
@@ -85,7 +88,6 @@ var Bubble = /** @class */ (function (_super) {
     };
     Bubble.prototype.bubbleDestroy = function (delay) {
         var _this = this;
-        console.log('delay', delay);
         var timer = setTimeout(function () {
             if (delay > 0) {
                 cc.audioEngine.playEffect(_this.destroySound, false);
@@ -105,6 +107,9 @@ var Bubble = /** @class */ (function (_super) {
     __decorate([
         property(cc.AudioClip)
     ], Bubble.prototype, "destroySound", void 0);
+    __decorate([
+        property(cc.AudioClip)
+    ], Bubble.prototype, "bombSound", void 0);
     Bubble = __decorate([
         ccclass
     ], Bubble);

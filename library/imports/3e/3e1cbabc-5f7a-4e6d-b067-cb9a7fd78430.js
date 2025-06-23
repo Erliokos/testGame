@@ -25,6 +25,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 var config_1 = require("./constants/config");
 var getNewPositionByStep_1 = require("./utils/getNewPositionByStep");
+var searchLineVertical_1 = require("./utils/searchLineVertical");
+var searchNeighbor_1 = require("./utils/searchNeighbor");
 var _a = cc._decorator, ccclass = _a.ccclass, property = _a.property;
 var Board = /** @class */ (function (_super) {
     __extends(Board, _super);
@@ -35,7 +37,6 @@ var Board = /** @class */ (function (_super) {
         return _this;
     }
     Board.prototype.initGame = function (bubblePrefab, onBubbleClick) {
-        console.log('INIT', bubblePrefab);
         this.initStep();
         this.bubblePrefab = bubblePrefab;
         this.onBubbleClick = onBubbleClick;
@@ -62,7 +63,6 @@ var Board = /** @class */ (function (_super) {
                 this.board[x][y] = node;
             }
         }
-        console.log('board', this.board);
     };
     Board.prototype.createBubble = function (position) {
         var newBubble = cc.instantiate(this.bubblePrefab);
@@ -76,49 +76,29 @@ var Board = /** @class */ (function (_super) {
         this.node.addChild(newBubble);
         return newBubble;
     };
-    Board.prototype.getGroupToRemove = function (startPosition) {
-        var _this = this;
+    Board.prototype.getGroupToRemove = function (startPosition, type) {
         var startBubbleNode = this.board[startPosition.x][startPosition.y];
         if (!startBubbleNode)
             return;
-        var startBubble = startBubbleNode.getComponent('Bubble');
-        var visited = new Set();
-        var groupToRemove = [];
-        var searchNeighbor = function (pos) {
-            console.log('pos');
-            if (pos.x < 0 || pos.y < 0 || pos.x >= config_1.default.BOARD_WIDTH || pos.y >= config_1.default.BOARD_HEIGHT)
-                return;
-            var key = pos.x + "," + pos.y;
-            if (visited.has(key))
-                return;
-            var node = _this.board[pos.x][pos.y];
-            if (!node)
-                return;
-            var bubble = node.getComponent('Bubble');
-            if (bubble.type === startBubble.type) {
-                visited.add(key);
-                groupToRemove.push(node);
-                searchNeighbor(cc.v2(pos.x + 1, pos.y));
-                searchNeighbor(cc.v2(pos.x - 1, pos.y));
-                searchNeighbor(cc.v2(pos.x, pos.y + 1));
-                searchNeighbor(cc.v2(pos.x, pos.y - 1));
-            }
-        };
-        searchNeighbor(startPosition);
-        return groupToRemove;
+        if (type === 'bomb') {
+            return searchLineVertical_1.searchBombField(startPosition, [], this.board, 2);
+        }
+        else {
+            return searchNeighbor_1.searchNeighbor(startPosition, new Set(), [], type, this.board);
+        }
     };
-    Board.prototype.removeGroup = function (group) {
+    Board.prototype.removeGroup = function (group, startPosition, type) {
         if (group.length < 2)
             return 0;
         for (var i = 0; i < group.length; i++) {
             var bubble = group[i].getComponent('Bubble');
             this.board[bubble.coord.x][bubble.coord.y] = null;
-            bubble.bubbleDestroy(i);
+            bubble.bubbleDestroy(type === 'bomb' ? 0 : i);
         }
-        this.fillEmptySpace(group.length);
+        this.fillEmptySpace(group.length, startPosition, type);
         return group.length;
     };
-    Board.prototype.fillEmptySpace = function (emtyCount) {
+    Board.prototype.fillEmptySpace = function (emtyCount, startPosition, type) {
         for (var x = 0; x < config_1.default.BOARD_WIDTH; x++) {
             var stepToDown = 0;
             for (var y = 0; y < config_1.default.BOARD_HEIGHT; y++) {
@@ -129,7 +109,11 @@ var Board = /** @class */ (function (_super) {
                 else if (node && stepToDown > 0) {
                     var bubble = node.getComponent('Bubble');
                     var newPosition = getNewPositionByStep_1.getNewPositionByStep(cc.v2(x, y - stepToDown), this.stepX, this.stepY);
-                    bubble.moveToPosition(newPosition, emtyCount);
+                    // Создание бонуса
+                    if (startPosition.equals(cc.v2(x, y - stepToDown)) && emtyCount > config_1.default.COUNT_TO_GET_BOMB && type !== 'bomb') {
+                        bubble.initType('bomb');
+                    }
+                    bubble.moveToPosition(newPosition, type === 'bomb' ? 2 : emtyCount);
                     bubble.initCoord(cc.v2(x, y - stepToDown));
                     this.board[x][y - stepToDown] = node;
                     this.board[x][y] = null;
@@ -143,12 +127,16 @@ var Board = /** @class */ (function (_super) {
                 bubble.initCoord(cc.v2(x, config_1.default.BOARD_HEIGHT - stepToDown + i));
                 this.board[x][config_1.default.BOARD_HEIGHT - stepToDown + i] = newBubble;
                 var newPosition = getNewPositionByStep_1.getNewPositionByStep(cc.v2(x, config_1.default.BOARD_HEIGHT - stepToDown + i), this.stepX, this.stepY);
-                bubble.moveToPosition(newPosition, emtyCount + i * 2);
+                // Создание бонуса
+                if (startPosition.equals(cc.v2(x, config_1.default.BOARD_HEIGHT - stepToDown + i)) && emtyCount > config_1.default.COUNT_TO_GET_BOMB && type !== 'bomb') {
+                    bubble.initType('bomb');
+                }
+                bubble.moveToPosition(newPosition, type === 'bomb' ? 2 : emtyCount + i * 2);
             }
         }
     };
-    Board.prototype.handleBubbleClick = function (position) {
-        this.onBubbleClick(position);
+    Board.prototype.handleBubbleClick = function (position, type) {
+        this.onBubbleClick(position, type);
     };
     Board.prototype.initStep = function () {
         this.stepX = (this.node.width - config_1.default.BOARD_SIZE * 2) / config_1.default.BOARD_WIDTH;

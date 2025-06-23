@@ -22,7 +22,9 @@ export default class Score extends cc.Component {
 
     initScore(startScore: number) {
         this.score = startScore
-        this.timeScoreView.renderScore(this.score)
+        if (this.timeScoreView) {
+            this.timeScoreView.renderScore(this.score)
+        }
     }
 
     updateScore(addScore: number) {

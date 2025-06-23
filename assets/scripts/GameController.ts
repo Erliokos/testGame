@@ -1,5 +1,6 @@
 const { ccclass, property } = cc._decorator;
 import Board from './Board';
+import { BubbleType } from './constants/bubbleSpriteFrame';
 import config from './constants/config'
 import GameOverView from './GameOverView';
 import Score from './Score';
@@ -45,9 +46,9 @@ export default class GameController extends cc.Component {
         this.score.initScore(config.START_SCORE)
     }
 
-    handleBubbleClick(position: cc.Vec2) {
-        const groupToRemove = this.board.getGroupToRemove(position)
-        const points = this.board.removeGroup(groupToRemove)
+    handleBubbleClick(position: cc.Vec2, type: BubbleType) {
+        const groupToRemove = this.board.getGroupToRemove(position, type)
+        const points = this.board.removeGroup(groupToRemove, position, type)
         this.calculateTimeAndScore(points)
     }
 

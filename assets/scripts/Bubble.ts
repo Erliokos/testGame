@@ -19,6 +19,9 @@ export default class Bubble extends cc.Component {
     @property(cc.AudioClip)
     destroySound: cc.AudioClip | null = null;
 
+    @property(cc.AudioClip)
+    bombSound: cc.AudioClip | null = null;
+
     type: BubbleType = 'block_blue'
 
     sprite: cc.Sprite
@@ -35,11 +38,9 @@ export default class Bubble extends cc.Component {
 
     initType(type?: BubbleType) {
         this.sprite = this.getComponent(cc.Sprite)
-        if(!type) {
-            const sprite_name = getRandomType()
-            this.type = sprite_name
-            const sprite = this.bubbleSprites[sprite_name]
-            this.sprite.spriteFrame = sprite
+        if (!type) {
+            this.type = getRandomType()
+            this.sprite.spriteFrame = this.bubbleSprites[this.type]
             return
         }
         this.type = type
@@ -56,12 +57,16 @@ export default class Bubble extends cc.Component {
     }
 
     onClick() {
-        this.node.emit('bubble-click', this.coord);
+        this.node.emit('bubble-click', this.coord, this.type);
     }
 
     onKeyDown() {
-        cc.audioEngine.playEffect(this.destroySound, false);
-        console.log('KEY_DOWN');
+        if (this.type === 'bomb') {
+            cc.audioEngine.playEffect(this.bombSound, false);
+        }
+        else {
+            cc.audioEngine.playEffect(this.destroySound, false);
+        }
         const anim = this.getComponent(cc.Animation);
         anim.play('bubble_touch')
     }
@@ -78,9 +83,8 @@ export default class Bubble extends cc.Component {
     }
 
     bubbleDestroy(delay: number) {
-        console.log('delay', delay);
         const timer = setTimeout(() => {
-            if(delay > 0) {
+            if (delay > 0) {
                 cc.audioEngine.playEffect(this.destroySound, false);
             }
             const anim = this.getComponent(cc.Animation);
@@ -91,7 +95,7 @@ export default class Bubble extends cc.Component {
                 clearTimeout(timerToDestroy)
             }, 200)
         }, delay * 100)
-        
+
     }
 
 }
