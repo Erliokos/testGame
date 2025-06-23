@@ -5,8 +5,8 @@
     "relativePath": "scene"
   },
   "21730a77-f721-4377-9ed1-59e65ae6be2e": {
-    "asset": 1750638137267,
-    "meta": 1750638137286,
+    "asset": 1750682646108,
+    "meta": 1750682646111,
     "relativePath": "scene/Game.fire"
   },
   "d01817e3-0f43-497d-a937-f8bc1b6fd2b9": {
@@ -761,12 +761,12 @@
   },
   "7e8c4f54-4ec1-4a8c-be64-c5e93b6e76e8": {
     "asset": 1750681983624,
-    "meta": 1750682116303,
+    "meta": 1750682591334,
     "relativePath": "scripts/Bubble.ts"
   },
   "3811637a-520f-4f3d-a76a-92209bb1e173": {
     "asset": 1750682113355,
-    "meta": 1750682116306,
+    "meta": 1750682591338,
     "relativePath": "scripts/constants/config.ts"
   }
 }
