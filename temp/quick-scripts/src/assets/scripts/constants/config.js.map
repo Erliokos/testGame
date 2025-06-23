@@ -1,0 +1,1 @@
+{"version":3,"sources":["assets/scripts/constants/config.ts"],"names":[],"mappings":";;;;;;AAAA,kBAAe;IACb,WAAW,EAAE,CAAC;IACd,YAAY,EAAE,CAAC;IACf,UAAU,EAAE,EAAE;IACd,SAAS,EAAE,CAAC;IACZ,WAAW,EAAE,CAAC;CACf,CAAA","file":"","sourceRoot":"/","sourcesContent":["export default {\n  BOARD_WIDTH: 8,\n  BOARD_HEIGHT: 8,\n  BOARD_SIZE: 40,\n  GAME_TIME: 3,\n  START_SCORE: 0,\n}\n"]}

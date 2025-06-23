@@ -1,7 +1,7 @@
 {
   "b7689129-8df1-488c-bbbf-7357fbc21470": {
-    "asset": 1750598958391,
-    "meta": 1750598958392,
+    "asset": 1750599036822,
+    "meta": 1750638492209,
     "relativePath": "scene"
   },
   "21730a77-f721-4377-9ed1-59e65ae6be2e": {
@@ -10,8 +10,8 @@
     "relativePath": "scene/Game.fire"
   },
   "d01817e3-0f43-497d-a937-f8bc1b6fd2b9": {
-    "asset": 1750599048814,
-    "meta": 1750599048815,
+    "asset": 1750633379451,
+    "meta": 1750638492209,
     "relativePath": "scripts"
   },
   "9836134e-b892-4283-b6b2-78b5acf3ed45": {
@@ -515,33 +515,33 @@
     "relativePath": "model/primitives.fbx"
   },
   "11d0de85-7959-43a9-bca3-a556241d274c": {
-    "asset": 1750606384398,
-    "meta": 1750606384402,
+    "asset": 1750611085242,
+    "meta": 1750638492210,
     "relativePath": "scripts/constants"
   },
   "f8f86748-0558-4929-84c4-850992ce3175": {
-    "asset": 1750606411623,
-    "meta": 1750606411631,
+    "asset": 1750606416489,
+    "meta": 1750638492210,
     "relativePath": "scripts/types"
   },
   "a98f9295-05b9-4890-b1fa-806f80533b0d": {
-    "asset": 1750606509894,
-    "meta": 1750606509896,
+    "asset": 1750606901939,
+    "meta": 1750638492210,
     "relativePath": "sprite"
   },
   "9c5a035d-8ea3-4add-afbe-a17fc6624d15": {
-    "asset": 1750606518142,
-    "meta": 1750606518151,
+    "asset": 1750625223002,
+    "meta": 1750638492209,
     "relativePath": "prefabs"
   },
   "124db278-57b7-497a-96de-521ac9dba4c5": {
-    "asset": 1750606561552,
-    "meta": 1750606561555,
+    "asset": 1750606640222,
+    "meta": 1750638492211,
     "relativePath": "sprite/bubble"
   },
   "adf4d13b-4a91-4e21-bf89-69587c6abc2b": {
-    "asset": 1750606585411,
-    "meta": 1750606585412,
+    "asset": 1750606901938,
+    "meta": 1750638492211,
     "relativePath": "sprite/bubble/bubble_types"
   },
   "170d2d5d-4527-4fce-b01d-5264b70ccdbf": {
@@ -650,8 +650,8 @@
     "relativePath": "sprite/background/background.png"
   },
   "22c7daf0-7c0f-487b-a8cf-ee2657e6824b": {
-    "asset": 1750608908552,
-    "meta": 1750608908555,
+    "asset": 1750609044435,
+    "meta": 1750638492208,
     "relativePath": "fonts"
   },
   "9633aa0c-2008-4564-867f-227271b58d57": {
@@ -670,8 +670,8 @@
     "relativePath": "scripts/constants/bubbleSpriteFrame.ts"
   },
   "6e366439-e66a-460a-aff7-94fb9406e644": {
-    "asset": 1750614228383,
-    "meta": 1750614261545,
+    "asset": 1750615250924,
+    "meta": 1750638492210,
     "relativePath": "scripts/utils"
   },
   "21aed019-d647-402a-8d14-7aaf630834e3": {
@@ -690,8 +690,8 @@
     "relativePath": "animation/bubble_destroy.anim"
   },
   "65cbf5a5-3ee5-4ed2-9193-8b935e0f3dab": {
-    "asset": 1750625091302,
-    "meta": 1750625091304,
+    "asset": 1750625118377,
+    "meta": 1750638492209,
     "relativePath": "sounds"
   },
   "7835edc7-1455-4088-adf3-b2580fef08e4": {
@@ -748,5 +748,10 @@
     "asset": 1750637864822,
     "meta": 1750638130851,
     "relativePath": "scripts/GameOverView.ts"
+  },
+  "026ff6e3-234e-4e88-983a-882c6adbc509": {
+    "asset": 1750624376638,
+    "meta": 1750638492208,
+    "relativePath": "animation"
   }
 }
