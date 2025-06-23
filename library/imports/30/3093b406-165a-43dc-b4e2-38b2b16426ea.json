@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icon_booster_teleport",
+    "texture": "d56266bb-6fab-4e20-8cf4-2d2350217587",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      95,
+      117
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      95,
+      117
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

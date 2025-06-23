@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "slot_frame_moves",
+    "texture": "dfc2e4ac-8186-42eb-9d6c-098373834148",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      128,
+      208
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      128,
+      209
+    ],
+    "capInsets": [
+      57,
+      58.5,
+      57,
+      58.5
+    ]
+  }
+}

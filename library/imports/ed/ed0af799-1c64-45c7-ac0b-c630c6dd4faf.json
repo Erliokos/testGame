@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "block_rakets",
+    "texture": "e5fe0d27-d19c-4bba-a5ec-8906450751e6",
+    "atlas": "",
+    "rect": [
+      6,
+      0,
+      89,
+      111
+    ],
+    "offset": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      100,
+      112
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
